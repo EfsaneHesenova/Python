@@ -1,0 +1,18 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+import math
+s=0
+x=1.9
+eps=0.001
+fakt=1
+i=1
+z1=1
+z=1
+while math.fabs(z)>eps:
+    s=s+z
+    fakt=fakt*i
+    z1=z1*x
+    z=z1/fakt
+    i=i+1
+print('S=',s)
